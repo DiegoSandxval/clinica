@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Regis_paciente"
+    android:orientation="vertical"
+    android:background="@color/background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/feliz" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/fuenteprin"
+            android:text="@string/clinica"
+            android:textColor="@color/blapin"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registrar_paciente"
+        android:fontFamily="@font/fuenteprin"
+        android:textColor="@color/pinpin"
+        android:textSize="40sp"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/pacie_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/liblue"
+        android:fontFamily="@font/coming"
+        android:hint="@string/nombres"
+        android:textSize="25sp" />
+    <EditText
+        android:id="@+id/pacie_apelli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/liblue"
+        android:fontFamily="@font/coming"
+        android:hint="@string/apellidos"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/pacie_edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/liblue"
+        android:fontFamily="@font/coming"
+        android:hint="@string/edad"
+        android:textSize="25sp" />
+    <EditText
+        android:id="@+id/pacie_direc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/liblue"
+        android:fontFamily="@font/coming"
+        android:hint="@string/direccion"
+        android:textSize="25sp" />
+    <EditText
+        android:id="@+id/pacie_respon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/liblue"
+        android:fontFamily="@font/coming"
+        android:hint="@string/responsable"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/bt_paciente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/pin"
+        android:fontFamily="@font/fuenteprin"
+        android:text="@string/registrar_paciente"
+        android:textSize="30sp" />
+
+</LinearLayout>

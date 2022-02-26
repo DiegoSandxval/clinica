@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Pediatra</string>
+    <string name="clinica">Clinica Pediatra</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="iniciar_sesion">Iniciar Sesion</string>
+    <string name="reg">Eres nuevo aqui? Registrate!</string>
+    <string name="ingresar_usuario">Ingresar Usuario</string>
+    <string name="ingresarcontra">Ingresar Contraseña</string>
+    <string name="registrar">registrar</string>
+    <string name="registrar_paciente">Registrar Paciente</string>
+    <string name="nombres">Nombres</string>
+    <string name="registrar_paciente">Registrar Paciente</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="edad">Edad</string>
+    <string name="direccion">Direccion</string>
+    <string name="responsable">Responsable</string>
+    <string name="registrar_medico">Registrar Medico</string>
+    <string name="cl_nica">Clínica</string>
+    <string name="especialidad">Especialidad</string>
+    <string name="registrar_medico">Registrar Medico</string>
+</resources>

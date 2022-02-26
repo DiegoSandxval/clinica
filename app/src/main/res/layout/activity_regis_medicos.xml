@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Regis_paciente"
+    android:orientation="vertical"
+    android:background="@color/background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/feliz" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/fuenteprin"
+            android:text="@string/clinica"
+            android:textColor="@color/blapin"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registrar_medico"
+        android:fontFamily="@font/fuenteprin"
+        android:textColor="@color/pinpin"
+        android:textSize="40sp"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/med_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/liblue"
+        android:fontFamily="@font/coming"
+        android:hint="@string/nombres"
+        android:textSize="25sp" />
+    <EditText
+        android:id="@+id/med_apell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/liblue"
+        android:fontFamily="@font/coming"
+        android:hint="@string/apellidos"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/med_clin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/liblue"
+        android:fontFamily="@font/coming"
+        android:hint="@string/cl_nica"
+        android:textSize="25sp" />
+    <EditText
+        android:id="@+id/med_dire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/liblue"
+        android:fontFamily="@font/coming"
+        android:hint="@string/direccion"
+        android:textSize="25sp" />
+    <EditText
+        android:id="@+id/med_esp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/liblue"
+        android:fontFamily="@font/coming"
+        android:hint="@string/especialidad"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_med"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/pin"
+        android:fontFamily="@font/fuenteprin"
+        android:text="@string/registrar_medico"
+        android:textSize="30sp" />
+
+</LinearLayout>
